@@ -1,0 +1,20 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.fonts{
+    color: skyblue;
+    font-size: 40px;
+    padding: 0 10px;
+}
+.login{
+    background-color: cadetblue;
+    color: blue;
+    padding: 0 10px;
+}
+button{
+    color: burlywood;
+    background-color: cadetblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}

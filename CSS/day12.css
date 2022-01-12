@@ -1,0 +1,65 @@
+
+
+.img1{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.one{
+    background-color: rgb(29, 29, 59);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    
+}
+.list li{
+    padding: 20px 10px;
+}
+.list li:hover .drop{
+    display: block;
+}
+.drop{
+    background-color: skyblue;
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 300px;
+    position: absolute;  
+    display: none;
+    
+}
+.drop li{
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+button{
+    background-color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    color: rgb(29, 29, 59);
+    font-size: 10px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color: rgb(29, 29, 59);
+    color: whitesmoke;
+}
+.services{
+    background-color: tomato;
+    color: black;
+}

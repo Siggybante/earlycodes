@@ -1,0 +1,18 @@
+body {
+  background-color: #118acb;
+  font-family: courier;
+  font-size: 20px;
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-size: 50px;
+  }
+}
+/*# sourceMappingURL=day15.css.map */

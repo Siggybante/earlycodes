@@ -1,0 +1,16 @@
+.wrapper div{
+    background-color: skyblue;
+    color: whitesmoke;
+}
+.wrapper div:nth-child(even){
+    background-color: turquoise;
+}   
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    /* column-gap: 10px; */
+    /* row-gap: 10px; */
+    /* grid-auto-rows: minmax(100px, auto ); */
+}

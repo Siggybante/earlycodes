@@ -1,0 +1,58 @@
+$sitecolors:(
+    one:#118acb,
+    two:whitesmoke
+);
+$sitepaddings:(
+    one:5px,
+    two:10px,
+    three:15px,
+    four:20px,
+    five:25px,
+    six:30px,
+    seven:40px,
+    eight:50px
+);
+$sitefonts:(
+    one:arial,
+    two:courier
+);
+@function colors($name){
+    @return map-get($sitecolors, $name);
+};
+@function paddings($name){
+    @return map-get($sitepaddings, $name )
+};
+@function fonts($name){
+    @return map-get($sitefonts, $name )
+};
+$sammy: 1024px;
+$mobile: 640px;
+
+
+@mixin sammy {
+    @media (max-width:#{$sammy}){
+        @content;
+    }
+    
+};
+
+
+@mixin mobile {
+    @media (max-width:#{$mobile}){
+        @content;
+    }
+    
+};
+
+
+body{
+    background-color: colors(one);
+    font-family: fonts(two) ;
+    font-size: paddings(four);
+    @include mobile{
+        font-size: paddings(two);
+    }
+    @include sammy{
+        font-size: paddings(eight);
+    }
+}

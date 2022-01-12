@@ -1,0 +1,64 @@
+.block{
+    background-color: red;
+    display: inline;
+    
+}
+span{
+    background-color: green;
+}
+.great span{
+    background-color: blue;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: chocolate;
+
+}
+.left img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.navlist{
+    display: flex;
+}
+.navlist li{
+list-style-type: none;
+padding: 0 10px;
+padding-top: 30px;
+}
+
+.one{
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.one:hover{
+    color: greenyellow;
+    border-bottom: 2px solid;
+    padding-bottom: 50px;
+    font-weight: bold;
+    transform: scale(1.1)
+   
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.first{
+    background-color: blue;
+    color: black;
+    padding: 5px;
+}
+.second{
+    background-color: yellow;
+    color: black;
+}
+.third{
+    background-color: red;
+    color: white;
+}

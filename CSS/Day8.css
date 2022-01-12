@@ -1,0 +1,41 @@
+.list{
+    background-color: green;
+}
+.list li {
+    color: whitesmoke;
+}
+#run + li{
+    color: black;
+}
+
+.parent div{
+    background-color: blue;
+}
+.parent div:nth-child(even){
+    background-color: grey;
+}
+.parent div:hover{
+    color: yellow;
+}
+
+#btn:hover{
+    color: blue;
+    background-color: green;
+    border: 1px solid;
+}
+#btn:focus {
+    color: red;
+    background-color: yellow;
+    border: 1px solid;
+}
+#img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    transition: 3s;
+}
+#img:hover{
+    transition: 20s;
+    transform: rotate(360deg);
+}
